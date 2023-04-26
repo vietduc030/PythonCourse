@@ -27,13 +27,13 @@ class Deck:
 d=Deck()
 p1_starting_hand=[d.draw() for i in range(5)]
 d.shuffle()
-
-
-
 print(p1_starting_hand)
-listcards = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"]
-symbols = ["Heart", "Spade", "Diamond", "Club"] 
-decklist = [card + " of " + symbol for card in listcards for symbol in symbols]
+
+
+#
+#listcards = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"]
+#symbols = ["Heart", "Spade", "Diamond", "Club"] 
+#decklist = [card + " of " + symbol for card in listcards for symbol in symbols]
 
 
 # print(decklist)
